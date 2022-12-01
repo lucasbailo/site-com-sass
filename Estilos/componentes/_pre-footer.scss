@@ -1,0 +1,47 @@
+@import '../abstract/variaveis';
+
+#prefooter {
+    background-color: rgb(240, 240, 240);
+    .img-final {
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        img {
+            margin-top: 20px;
+            border-radius: 140px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .texto-final {
+        justify-content: center;
+        h3 {
+            display: flex;
+            justify-content: center;
+            font-size: $tamanho-do-texto / 1.7;
+            padding: 8px;
+            color: $cor-primaria;
+        }
+        h4 {
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+            color: $cor-primaria;
+            font-weight: bold;
+        }
+
+        .texto-final {
+            padding: 25px;
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            padding: 8px;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
+            color: $cor-primaria;
+        }
+    }
+}
